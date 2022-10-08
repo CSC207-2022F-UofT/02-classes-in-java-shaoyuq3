@@ -206,10 +206,10 @@ public class Silly implements Comparable<Silly>{
          *                .length() method.
          */
         if (this.name.length() > other.name.length()){
-            return 12345;
+            return 1;
         }
         else if (this.name.length() < other.name.length()){
-            return -54321;
+            return -1;
         }
         else {
             return 0;
